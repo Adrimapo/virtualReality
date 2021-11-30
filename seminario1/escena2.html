@@ -1,0 +1,38 @@
+
+  
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script> 
+    <!-- <script src="../assets/js/aframe.min.js"></script> -->
+  </head>
+  <body>
+    <a-scene background="color: grey">
+      <a-assets>
+        <img id="molinos" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapertag.com%2Fwallpaper%2Ffull%2F9%2F1%2Fe%2F641156-future-technology-wallpaper-2560x1600-for-meizu.jpg&f=1&nofb=1">
+        <img id="soil" src="https://static.decoandlemon.com/catalog/product/cache/1/image/1800x/040ec09b1e35df139433887a97daa66f/3/1/31020007_0.jpg">
+        <img id="bands" src="">
+      </a-assets>
+
+      <a-box position="3.5 1 -3" rotation="0 90 0" scale="2 2 2" src="#molinos"
+            animation="property: position; to: 20 1 -5;
+                        dir: alternate; dur: 900;
+                        loop: true"
+            animation__2="property: rotation; to: 360 90 0;
+            dir: alternate; dur: 900;
+            loop: true">
+
+            
+      </a-box>
+
+      <a-cylinder position="1 1.25 -3" radius="0.5" height="2.5" src="#bands">
+      </a-cylinder>
+      <a-plane position="0 0 -4" rotation="-90 0 0" width="8" height="4"
+               repeat="4 2" src="#soil"></a-plane>
+
+      <a-light type="ambient" color="grey"></a-light>
+      <a-light type="point" intensity="2" position="-2 2 4"></a-light>
+    </a-scene>
+  </body>
+</html>
