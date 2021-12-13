@@ -1,4 +1,2 @@
 # RealidadVirtual
-Repositorio de pruebas
-
-
+Virtual reality using A-frame

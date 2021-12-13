@@ -1,2 +1,2 @@
-# RealidadVirtual
-Repositorio de pruebas
+# 1º seminario
+First code with virtual reality
