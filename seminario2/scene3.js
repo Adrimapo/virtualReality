@@ -10,7 +10,7 @@ AFRAME.registerComponent('globe', {
 
         this.el.setAttribute('animation', {'property' : 'position',
         'to' : {x:0, y: 200, z: 0}, 
-        'dur': 10000})
+        'dur': 100000})
     }
 })
 
@@ -56,6 +56,7 @@ AFRAME.registerComponent('basic-scene', {
 
             sphere2.addEventListener('click', function() {
                 sphere2.setAttribute('radius', 0);
+                sphere2.setAttribute( 'sound', 'src', "url(sound.mp3)",  'autoplay', "true");
             })
 
 
