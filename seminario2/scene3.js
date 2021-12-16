@@ -56,7 +56,8 @@ AFRAME.registerComponent('basic-scene', {
 
             sphere2.addEventListener('click', function() {
                 sphere2.setAttribute('radius', 0);
-                sphere2.setAttribute( 'sound', 'src', "url(sound.mp3)",  'autoplay', "true");
+                sphere2.setAttribute( 'sound', 'src', "url(sound.mp3)");
+                sphere2.setAttribute('sound', 'autoplay', "true");
             })
 
 
