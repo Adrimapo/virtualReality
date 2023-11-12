@@ -18,6 +18,6 @@ Launch a server = python3 -m http.server
 
 Doom = Downloaded tree (document in javascript)
 
-## [Web link](https://roninad.github.io/RealidadVirtual/](https://adrimapo.github.io/virtualReality/)
+## [Web link](https://adrimapo.github.io/virtualReality/)
 
 ## [Reference](http://jgbarah.github.io/aframe-playground)
